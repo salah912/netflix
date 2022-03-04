@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clone of Netflix using Tailwindcss">
+
+    <!-- Import Front-end Frameworks -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://use.fontawesome.com/releases/v6.0.0/js/all.js"crossorigin="anonymous"></script>
+
+
+    <title>Home - Netflix</title>
+
+</head>
+ <body class="bg-black text-slate-100 bg-cover bg-gradient-to-r from-black-500 to-black-900 " style="background-image: url(./assets/img/index/fond-casa\ de\ papel.jpeg)">
+
+
+
+    <!-- Header / Hero Banner -->
+    <header class="w-screen h-full">
+
+        <!-- NavBar -->
+        <section class="lg:py-2 py-1 px-10 fixed top-0 w-full z-40">
+
+            <nav class="flex md:justify-between justify-center">
+
+                <!-- Left part of navbar -->
+                <div class="flex items-center md:justify-start w-auto">
+
+                    <img src="assets/img/logo/Netflix-logo.png" alt="Netflix Logo" class="w-28 hover:cursor-pointer">
+
+                    <div class="md:flex hidden justify-between lg:ml-8 md:ml-3 lg:text-sm text-xs">
+
+                        <a href="#" class="text-white hover:cursor-default">Home</a>
+                        <a href="#" class="ml-5 text-gray-300 hover:text-gray-400">TV Show</a>
+                        <a href="#" class="ml-5 text-gray-300 hover:text-gray-400">Movies</a>
+                        <a href="#" class="ml-5 text-gray-300 hover:text-gray-400">New & Popular</a>
+                        <a href="#" class="ml-5 text-gray-300 hover:text-gray-400">My List</a>
+                        <a href="#" class="ml-5 text-gray-300 hover:text-gray-400">Watch Again</a>
+
+                    </div>
+
+                </div>
+
+                <!-- Right part of navbar -->
+                <div class="md:flex hidden items-center justify-around lg:w-52 md:w-36 lg:text-base text-xs">
+
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <a href="#" class="ml-5 text-gray-300 hover:text-gray-400">kids</a>
+                    <button><i class="fa-solid fa-bell"></i></button>
+                    
+
+                    <div class="flex items-center justify-between ml-2 group">
+
+                        <img src="assets/img/index/avatar.jpg" alt="Avatar" class="w-10 rounded group-hover:cursor-pointer">
+                        <button><i class="fa-solid fa-angle-down ml-2 group-hover:rotate-180 transition-all"></i></button>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </section>
+
+        <!-- Hero Banner -->
+        <section class="w-screen h-screen">
+
+            <!-- Wallpaper & gradient-->
+            <div class="absolute bg-gradient-to-t from-transparent to-black top-0 w-full h-10 z-10"></div>
+            <div class="absolute top-0 w-full h-full bg-[url('./assets/')] bg-cover bg-center z-0"></div>
+            <div class="absolute bg-gradient-to-b from-transparent to-black bottom-0 w-full h-10"></div>
+
+            <!-- Bio content -->
+            <section class="mx-14 ml-14">
+
+                <img class="h-10" src="https://www.designbust.com/download/1037/png/netflix_logo_png_transparet512.png"alt="" >
+                
+                <p class="text-base ffont-mono mx-12 -mt-8">
+                
+                S E R I E S 
+                </p>
+                </section>
+            <div class="flex flex-col h-full justify-center ml-16 xl:w-2/6 lg:w-2/5 sm:w-2/4 w-3/5">
+
+
+                <div class="z-10 flex items-center mt-3">
+
+                    <h3 class="ml-2 text-2xl font-bold">Watch Season 1 Now</h3>
+
+                </div>
+
+                <p class="z-10 text-xl mt-3">
+                    In this sequel to "Vikings", a century has passed and a new generation of legendary heroes aspires to forge its destiny and make history.
+                </p>
+            
+                <div class="z-10 mt-6 w-full">
+
+                    <button class="px-9 py-2 bg-white hover:bg-white/[.70] rounded-md text-black mr-5"><span class="mr-1"><i class="fa-solid fa-play"></i></span> Play</button>
+                    <button class="px-7 py-2 bg-gray-600/[.5] hover:bg-gray-500/[.4] rounded-md"><span class="mr-1"><i class="fa-solid fa-circle-info"></i></span> More Info</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </header>
+    
+</body>
+</html>
