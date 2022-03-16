@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://use.fontawesome.com/releases/v6.0.0/js/all.js"crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="./assets/img/index/netflis-logo-N.png">
 
-    <title>Home - Netflix</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Thomas Grouazel"/>
+        <meta name="description" content="Watch TV Shows Online, Watch Movies Online"/>
+        <title>Home - Netflix</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/c7ef252cad.js" crossorigin="anonymous"></script>
+        <script src="assets/main.js"></script>
+        
+    </head>
+    
+   
 
-</head>
+
  <body class="bg-black text-slate-100"> 
 
     <header class=" bg-cover bg-gradient-to-r from-black-500 to-black-900 bg-center bg-no-repeat h-screen w-screen" >
@@ -91,42 +96,66 @@
         </section> 
     </header>
     <main>
-        <section class="">
-             <p class="font-bold text-lg text-white ml-10">My list</p>
-        <br>
-        <div class="flex space-x-2  overflow-hidden overflow-x-scrol">
-            <div>
-                <div class="w-60 ml-10">
+        <p class="font-bold text-lg text-white ml-10">My list</p>
+        <section class="carousel overflow-hidden overflow-x-scrol scroll-smooth mb-12">
+        
+        <div class="flex space-x-2">
+            <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
+                <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
+            </div>
+            <div class="relative">
+                <div class="w-60 ml-8">
                     <a href="#"><img class=" w-60  rounded " src="./assets/img/my-list/1.png" alt=""></a>
                  </div>
             </div>
-            <div>
+            <div class="relative">
                 <div class="w-60">
                      <a href="#"><img class=" w-60 rounded "  src="./assets/img/my-list/2.png" alt=""></a>
                 </div>
             </div>
-            <div>
+            <div class="relative">
                 <div class="w-60">
                     <a href="#"><img class=" w-60 rounded " src="./assets/img//my-list/3.png" alt=""></a>
                 </div>
             </div>
-            <div>
+            <div class="relative">
                 <div class="w-60">
                     <a href="#"><img class=" w-60 rounded " src="./assets/img/my-list/4.png" alt=""></a>
                 </div>
             </div>
-            <div>
+            <div class="relative">
                 <div class="w-60">
                     <a href="#"><img class=" w-60 rounded " src="./assets/img/my-list/5.png" alt=""></a>
                 </div>
             </div>
-            <div>
+            <div class="relative">
                 <div class="w-60">
                     <a href="#"><img class=" w-60 rounded " src="./assets/img//my-list/6.png" alt=""></a>
                 </div>
             </div>
-           
-       
+            <div class="relative">
+                <div class="w-60 ">
+                    <a href="#"><img class=" w-60  rounded " src="./assets/img/my-list/1.png" alt=""></a>
+                 </div>
+            </div>
+            <div class="relative">
+                <div class="w-60">
+                     <a href="#"><img class=" w-60 rounded "  src="./assets/img/my-list/2.png" alt=""></a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img//my-list/3.png" alt=""></a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/my-list/4.png" alt=""></a>
+                </div>
+            </div>
+            <div class="absolute right-0 cursor-pointer rightArrow" onClick="rightScroll('.carousel', '.rightArrow')">
+                <button class="p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-right"></i></font></button>
+            </div>
         </div>
     </section>
                 
@@ -134,6 +163,11 @@
         <p class="font-bold text-lg text-white ml-10">Tv Shows</p>
    <br>
    <div class="overflow-hidden overflow-x-scrol flex space-x-2">
+    <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
+
+        <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
+        
+    </div>  
        <div>
            <div class="w-60 ml-10">
                <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
@@ -168,13 +202,17 @@
         <div class="w-60">
              <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
         </div>
-         </div>
+        </div>
+         
    </div>
 </section>    
  <section class="">
     <p class="font-bold text-lg text-white ml-10">Trending Now</p>
 <br>
 <div class="overflow-hidden overflow-x-scrol flex space-x-2">
+    <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
+        <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
+    </div>
    <div>
        <div class="w-60 ml-10">
            <a href="#"><img class=" w-60  rounded " src="./assets/img/Trending Now/1.png" alt=""></a>
@@ -214,7 +252,7 @@
             <p class="font-bold text-lg text-white -ml-8">TV Shows by Genre</p>
 
             <div class="genre">
-
+            
                 <div class="grid gap-2 lg:grid-cols-7 md:grid-cols-6 -ml-8 mt-2">
 
                     <div class="relative bg-gradient-to-r from-green-900 to-green-100 rounded overflow-hidden">
@@ -297,6 +335,9 @@
     <p class="font-bold text-lg text-white ml-10 ">Netflix Originals</p>
 <br>
 <div class="overflow-hidden overflow-x-scrol flex space-x-2">
+    <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
+        <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
+    </div>
     <div>
         <div class="w-60  ml-10">
            <a href="#"><img class="w-60  rounded " src="./assets/img/netflix originals/thumbnails-3_.png" alt=""></a>
@@ -353,6 +394,9 @@
     
     <p class="font-bold text-lg absolute py-4 mx-14 ml-10">Top 10 in USA Today</p>
     <div class="flex mx-14 mt-16" style="width: 98rem;">
+        <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
+            <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
+        </div>
         <div>
             <div class="h-auto w-96 flex items-center ">
                 <svg id="rank-1" viewBox="-20 0 70 154" class="h-44"><path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M35.377 152H72V2.538L2 19.362v30.341l33.377-8.459V152z"></path></svg>
@@ -438,6 +482,9 @@
 </section>
 <section class="">
     <p class="font-bold text-lg text-white ml-10 mt-10">New Release</p>
+    <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
+        <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
+    </div>
      <br>
         <div class="overflow-hidden overflow-x-scrol flex space-x-2">
             <div>
@@ -673,6 +720,32 @@
     </div>
 
 </footer>
+<script>
+    // right event
+    function rightScroll(carousel, rightArrow) {
 
+        const scroll = document.querySelector(carousel);
+
+        const right = document.querySelector(rightArrow);
+        
+        right.addEventListener("click", () => {
+            scroll.scrollLeft += scroll.offsetWidth;
+        })
+
+    }
+
+    // left event
+    function leftScroll(carousel, leftArrow) {
+
+        const scroll = document.querySelector(carousel);
+
+        const left = document.querySelector(leftArrow);
+
+        left.addEventListener("click", () => {
+            scroll.scrollLeft -= scroll.offsetWidth;
+        })
+
+    }  
+</script>
 </body>
 </html>
