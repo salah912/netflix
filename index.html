@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="Thomas Grouazel"/>
+        <meta name="author" content="Salah Ouni"/>
         <meta name="description" content="Watch TV Shows Online, Watch Movies Online"/>
         <title>Home - Netflix</title>
         <link rel="icon" type="image/png" href="favicon.png" />
@@ -63,6 +63,7 @@
         </section>
 
         <section class="w-screen h-screen">
+
             <img class="w-full h-screen object-cover" src="./assets/img/index/netflix-casa-de-papel.jpeg">
                 
             <div class="absolute bg-gradient-to-t from-transparent to-black top-0 w-full h-10 z-10"></div>
@@ -94,158 +95,168 @@
     
     
         </section> 
+
+
     </header>
+
+
     <main>
-        <p class="font-bold text-lg text-white ml-10">My list</p>
+
+        <p class="font-bold text-lg text-white ml-10 ">My List</p>
         <section class="carousel overflow-hidden overflow-x-scrol scroll-smooth mb-12">
+        <br>
+        <div class=" flex items-center space-x-2">
+
+            <div class="leftArrow absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel', '.leftArrow')">
+                <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+            </div>
         
-        <div class="flex space-x-2">
-            <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
-                <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
-            </div>
-            <div class="relative">
-                <div class="w-60 ml-8">
-                    <a href="#"><img class=" w-60  rounded " src="./assets/img/my-list/1.png" alt=""></a>
-                 </div>
-            </div>
-            <div class="relative">
-                <div class="w-60">
-                     <a href="#"><img class=" w-60 rounded "  src="./assets/img/my-list/2.png" alt=""></a>
+            <div>
+                <div class="w-60 ml-10">
+                    <a href="#"><img class=" w-  rounded " src="./assets/img/my-list/1.png" alt=""></a>
                 </div>
             </div>
-            <div class="relative">
+            <div>
                 <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img//my-list/3.png" alt=""></a>
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/my-list/2.png" alt=""></a>
                 </div>
             </div>
-            <div class="relative">
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/my-list/3.png" alt=""></a>
+                </div>
+            </div>
+            <div>
                 <div class="w-60">
                     <a href="#"><img class=" w-60 rounded " src="./assets/img/my-list/4.png" alt=""></a>
                 </div>
             </div>
-            <div class="relative">
+            <div>
                 <div class="w-60">
                     <a href="#"><img class=" w-60 rounded " src="./assets/img/my-list/5.png" alt=""></a>
                 </div>
             </div>
-            <div class="relative">
+            <div>
                 <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img//my-list/6.png" alt=""></a>
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/my-list/6.png" alt=""></a>
                 </div>
             </div>
-            <div class="relative">
-                <div class="w-60 ">
-                    <a href="#"><img class=" w-60  rounded " src="./assets/img/my-list/1.png" alt=""></a>
-                 </div>
-            </div>
-            <div class="relative">
+            <div>
                 <div class="w-60">
-                     <a href="#"><img class=" w-60 rounded "  src="./assets/img/my-list/2.png" alt=""></a>
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/my-list/1.png" alt=""></a>
                 </div>
             </div>
-            <div class="relative">
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img//my-list/3.png" alt=""></a>
-                </div>
-            </div>
-            <div class="relative">
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/my-list/4.png" alt=""></a>
-                </div>
-            </div>
-            <div class="absolute right-0 cursor-pointer rightArrow" onClick="rightScroll('.carousel', '.rightArrow')">
-                <button class="p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-right"></i></font></button>
-            </div>
-        </div>
-    </section>
-                
-    <section class="">
-        <p class="font-bold text-lg text-white ml-10">Tv Shows</p>
-   <br>
-   <div class="overflow-hidden overflow-x-scrol flex space-x-2">
-    <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
 
-        <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
-        
-    </div>  
-       <div>
-           <div class="w-60 ml-10">
-               <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
+            <div class="rightArrow absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel', '.rightArrow')">
+                <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
             </div>
-       </div>
-       <div>
-           <div class="w-60">
-                <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/2.png" alt=""></a>
-           </div>
-       </div>
-       <div>
-           <div class="w-60">
-               <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/3.png" alt=""></a>
-           </div>
-       </div>
-       <div>
-           <div class="w-60">
-               <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/4.png" alt=""></a>
-           </div>
-       </div>
-       <div>
-        <div class="w-60">
-            <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/5.png" alt=""></a>
-        </div>
-        </div>
-        <div>
-        <div class="w-60">
-             <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/6.png" alt=""></a>
-        </div>
-        </div>
-        <div>
-        <div class="w-60">
-             <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
-        </div>
-        </div>
          
-   </div>
-</section>    
- <section class="">
-    <p class="font-bold text-lg text-white ml-10">Trending Now</p>
-<br>
-<div class="overflow-hidden overflow-x-scrol flex space-x-2">
-    <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
-        <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
-    </div>
-   <div>
-       <div class="w-60 ml-10">
-           <a href="#"><img class=" w-60  rounded " src="./assets/img/Trending Now/1.png" alt=""></a>
         </div>
-   </div>
-   <div>
-       <div class="w-60">
-            <a href="#"><img class=" w-60 rounded "  src="./assets/img/Trending Now/2.png" alt=""></a>
-       </div>
-   </div>
-   <div>
-       <div class="w-60">
-           <a href="#"><img class=" w-60 rounded " src="./assets/img/Trending Now/3.png" alt=""></a>
-       </div>
-   </div>
-   <div>
-       <div class="w-60">
-           <a href="#"><img class=" w-60 rounded " src="./assets/img/Trending Now/4.png" alt=""></a>
-       </div>
-   </div>
-   <div>
-    <div class="w-60 ">
-        <a href="#"><img class=" w-60  rounded " src="./assets/img/Trending Now/5.png" alt=""></a>
-     </div>
+        </section>
+
+
+        <p class="font-bold text-lg text-white ml-10">Tv Shows</p>
+        <section class="carousel2 overflow-hidden overflow-x-scrol scroll-smooth mb-12">
+        <br>
+        <div class=" flex items-center space-x-2">
+
+            <div class="leftArrow2 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel2', '.leftArrow2')">
+                <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+            </div>
+        
+            <div>
+                <div class="w-60 ml-10">
+                    <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/2.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/3.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/4.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/5.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/6.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="rightArrow2 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel2', '.rightArrow2')">
+                <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
+            </div>
+         
+        </div>
+        </section>    
+
+
+        <p class="font-bold text-lg text-white ml-10">Trending Now</p>
+        <section class="carousel3 overflow-hidden overflow-x-scrol scroll-smooth mb-12"> 
+        <br>
+        <div class="flex items-center space-x-2">
+
+        <div class="leftArrow3 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel3', '.leftArrow3')">
+            <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+        </div>
+
+        <div>
+            <div class="w-60 ml-10">
+                <a href="#"><img class=" w-60  rounded " src="./assets/img/Trending Now/1.png" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <div class="w-60">
+                <a href="#"><img class=" w-60 rounded "  src="./assets/img/Trending Now/2.png" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <div class="w-60">
+                <a href="#"><img class=" w-60 rounded " src="./assets/img/Trending Now/3.png" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <div class="w-60">
+                <a href="#"><img class=" w-60 rounded " src="./assets/img/Trending Now/4.png" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <div class="w-60 ">
+                <a href="#"><img class=" w-60  rounded " src="./assets/img/Trending Now/5.png" alt=""></a>
+            </div>
+        </div>
+         <div>
+            <div class="w-60 ">
+                <a href="#"><img class=" w-60  rounded " src="./assets/img//Trending Now/6.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="rightArrow3 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel3', '.rightArrow3')">
+            <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
+        </div>
+
     </div>
-    <div>
-        <div class="w-60 ">
-            <a href="#"><img class=" w-60  rounded " src="./assets/img//Trending Now/6.png" alt=""></a>
-         </div>
-    </div>
-</div>
-</section>
-<section> 
+    </section>
+
+
+    <section> 
               
         <div class="px-12 py-3 mx-6">
 
@@ -330,73 +341,84 @@
             </div>
         </div>
 
-</section>
-<section class="">
+    </section>
+
     <p class="font-bold text-lg text-white ml-10 ">Netflix Originals</p>
-<br>
-<div class="overflow-hidden overflow-x-scrol flex space-x-2">
-    <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
-        <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
-    </div>
-    <div>
-        <div class="w-60  ml-10">
-           <a href="#"><img class="w-60  rounded " src="./assets/img/netflix originals/thumbnails-3_.png" alt=""></a>
+    <section class="carousel9 overflow-hidden overflow-x-scrol scroll-smooth mb-12">
+    <br>
+    <div class="flex items-center space-x-2">
+
+        <div class="leftArrow9 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel9', '.leftArrow9')">
+            <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
         </div>
+
+
+            <div>
+                <div class="w-60  ml-10">
+                    <a href="#"><img class="w-60  rounded " src="./assets/img/netflix originals/thumbnails-3_.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class="w-60 rounded "  src="./assets/img/netflix originals/thumbnails-blackmirror.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/netflix originals/thumbnails-enolaholmes.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class="w-60 rounded " src="./assets/img/netflix originals/thumbnails-lupin.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class="w-60 rounded " src="./assets/img/netflix originals/thumbnails-thewitcher.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class="w-60  rounded " src="./assets/img/netflix originals/thumbnails-3_.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class="w-60 rounded "  src="./assets/img/netflix originals/thumbnails-blackmirror.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class="w-60  rounded " src="./assets/img/netflix originals/thumbnails-enolaholmes.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/netflix originals/thumbnails-lupin.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60 ">
+                    <a href="#"><img class="w-60 rounded " src="./assets/img/netflix originals/thumbnails-thewitcher.png" alt=""></a>
+                </div>
+            </div>
+                
+        <div class="rightArrow9 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel9', '.rightArrow9')">
+            <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
+        </div>  
+
     </div>
-    <div>
-        <div class="w-60 ">
-         <a href="#"><img class="w-60 rounded "  src="./assets/img/netflix originals/thumbnails-blackmirror.png" alt=""></a>
+    </section> 
+
+    <p class="font-bold text-lg absolute py-4 mx-14 ml-10">Top 10 in USA Today</p>   
+    <section class="carousel10 overflow-hidden overflow-x-scrol scroll-smooth mb-12">
+    <div class="flex items-center space-x-2 mx-14 mt-16" style="width: 98rem;">
+
+        <div class="leftArrow10 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel10', '.leftArrow10')">
+            <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
         </div>
-    </div>
-    <div>
-        <div class="w-60 ">
-           <a href="#"><img class=" w-60 rounded " src="./assets/img/netflix originals/thumbnails-enolaholmes.png" alt=""></a>
-        </div>
-    </div>
-    <div>
-        <div class="w-60 ">
-           <a href="#"><img class="w-60 rounded " src="./assets/img/netflix originals/thumbnails-lupin.png" alt=""></a>
-        </div>
-    </div>
-    <div>
-        <div class="w-60 ">
-            <a href="#"><img class="w-60 rounded " src="./assets/img/netflix originals/thumbnails-thewitcher.png" alt=""></a>
-        </div>
-    </div>
-    <div>
-        <div class="w-60 ">
-           <a href="#"><img class="w-60  rounded " src="./assets/img/netflix originals/thumbnails-3_.png" alt=""></a>
-        </div>
-    </div>
-    <div>
-        <div class="w-60 ">
-         <a href="#"><img class="w-60 rounded "  src="./assets/img/netflix originals/thumbnails-blackmirror.png" alt=""></a>
-        </div>
-    </div>
-    <div>
-        <div class="w-60 ">
-           <a href="#"><img class="w-60  rounded " src="./assets/img/netflix originals/thumbnails-enolaholmes.png" alt=""></a>
-        </div>
-    </div>
-    <div>
-        <div class="w-60 ">
-           <a href="#"><img class=" w-60 rounded " src="./assets/img/netflix originals/thumbnails-lupin.png" alt=""></a>
-        </div>
-    </div>
-    <div>
-        <div class="w-60 ">
-            <a href="#"><img class="w-60 rounded " src="./assets/img/netflix originals/thumbnails-thewitcher.png" alt=""></a>
-        </div>
-    </div>
-</div>
-</section> 
-<section class="overflow-hidden overflow-x-scroll mb-32">
-    
-    <p class="font-bold text-lg absolute py-4 mx-14 ml-10">Top 10 in USA Today</p>
-    <div class="flex mx-14 mt-16" style="width: 98rem;">
-        <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
-            <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
-        </div>
+
         <div>
             <div class="h-auto w-96 flex items-center ">
                 <svg id="rank-1" viewBox="-20 0 70 154" class="h-44"><path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M35.377 152H72V2.538L2 19.362v30.341l33.377-8.459V152z"></path></svg>
@@ -477,100 +499,130 @@
                 </a>
             </div>
         </div>
+
+        <div class="rightArrow10 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel10', '.rightArrow10')">
+            <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
+        </div>
+
     </div> 
 
 </section>
-<section class="">
+
+
     <p class="font-bold text-lg text-white ml-10 mt-10">New Release</p>
-    <div class="absolute left-0 z-30 cursor-pointer leftArrow" onClick="leftScroll('.carousel', '.leftArrow')">
-        <button class="relative p-4 h-40 mr-2 focus:outline-none"><font size="6"><i class="fas fa-angle-left"></i></font></button>
+    <section class="carousel4 overflow-hidden overflow-x-scrol scroll-smooth mb-12">
+    <br>
+    <div class="flex items-center space-x-2">
+
+        <div class="leftArrow4 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel4', '.leftArrow4')">
+            <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+        </div>
+
+            <div>
+                <div class="w-60 ml-10">
+                    <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                  <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/2.png" alt=""></a>
+             </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/3.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/4.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/5.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/6.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
+                </div>
+            </div>
+
+        <div class="rightArrow4 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel4', '.rightArrow4')">
+            <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
+        </div>
+
     </div>
-     <br>
-        <div class="overflow-hidden overflow-x-scrol flex space-x-2">
-            <div>
-                <div class="w-60 ml-10">
-                    <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/2.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/3.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/4.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/5.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/6.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-</section> 
-          
-<section class="">
-<p class="font-bold text-lg text-white ml-10">Anime</p>
+    </section> 
+      
+    <p class="font-bold text-lg text-white ml-10">Anime</p>
+    <section class="carousel5 overflow-hidden overflow-x-scrol scroll-smooth mb-12">
     <br>
-        <div class="overflow-hidden overflow-x-scrol flex space-x-2">
-            <div>
-                <div class="w-60 ml-10">
-                    <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/2.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/3.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/4.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/5.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/6.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-</section> 
+    <div class="flex items-center space-x-2">
 
-<section class="">
-<p class="font-bold text-lg text-white ml-10">Documentary</p>
+        <div class="leftArrow5 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel5', '.leftArrow5')">
+            <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+        </div>
+
+            <div>
+                <div class="w-60 ml-10">
+                    <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/2.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/3.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/4.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/5.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/6.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
+                </div>
+            </div>
+
+        <div class="rightArrow5 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel5', '.rightArrow5')">
+            <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
+        </div>
+
+    </div>
+    </section> 
+
+    <p class="font-bold text-lg text-white ml-10">Documentary</p>
+    <section class="carousel6 overflow-hidden overflow-x-scrol scroll-smooth mb-12">
     <br>
-        <div class="overflow-hidden overflow-x-scrol flex space-x-2">
+    <div class="flex items-center space-x-2">
+
+
+        <div class="leftArrow6 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel6', '.leftArrow6')">
+            <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+        </div>
+
             <div>
                 <div class="w-60 ml-10">
                     <a href="#"><img class=" w-60  rounded " src="./assets/img/Trending Now/1.png" alt=""></a>
@@ -601,55 +653,76 @@
                     <a href="#"><img class=" w-60  rounded " src="./assets/img//Trending Now/6.png" alt=""></a>
                 </div>
             </div>
+
+        <div class="rightArrow6 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel6', '.rightArrow6')">
+            <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
         </div>
 
-</section>
-<section class="">
-<p class="font-bold text-lg text-white ml-10">US Series</p>
+    </div>
+    </section>
+
+
+    <p class="font-bold text-lg text-white ml-10">US Series</p>
+    <section class="carousel7 overflow-hidden overflow-x-scrol scroll-smooth mb-12">
     <br>
-        <div class="overflow-hidden overflow-x-scrol flex space-x-2">
-            <div>
-                <div class="w-60 ml-10">
-                    <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/2.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/3.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/4.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/5.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/6.png" alt=""></a>
-                </div>
-            </div>
-            <div>
-                <div class="w-60">
-                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-</section> 
+    <div class="flex items-center space-x-2">
     
-<section class="">
-<p class="font-bold text-lg text-white ml-10">US Animation for Adults</p>
+        <div class="leftArrow7 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel7', '.leftArrow7')">
+            <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+        </div>
+    
+            <div>
+                <div class="w-60 ml-10">
+                    <a href="#"><img class=" w-  rounded " src="./assets/img/Tv Shows/1.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/2.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/3.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/4.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded " src="./assets/img/Tv Shows/5.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/6.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <div class="w-60">
+                    <a href="#"><img class=" w-60 rounded "  src="./assets/img/Tv Shows/7.png" alt=""></a>
+                </div>
+            </div>
+
+        <div class="rightArrow7 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel7', '.rightArrow7')">
+            <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
+        </div>
+
+    </div>
+    </section> 
+    
+    <p class="font-bold text-lg text-white ml-10">US Animation for Adults</p>
+    <section class="carousel8 overflow-hidden overflow-x-scrol scroll-smooth mb-12">
     <br>
-        <div class="overflow-hidden overflow-x-scrol flex space-x-2">
+    <div class="flex items-center space-x-2">
+        
+        <div class="leftArrow8 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel8', '.leftArrow8')">
+            <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+        </div>
+
             <div>
                 <div class="w-60 ml-10">
                     <a href="#"><img class=" w-60  rounded " src="./assets/img/Trending Now/1.png" alt=""></a>
@@ -680,10 +753,17 @@
                     <a href="#"><img class=" w-60  rounded " src="./assets/img//Trending Now/6.png" alt=""></a>
                 </div>
             </div>
+
+        <div class="rightArrow8 absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel8', '.rightArrow8')">
+            <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
         </div>
-</section>
+
+    </div>
+    </section>
 
 </main>
+
+
 <footer class="h-auto w-full flex justify-center p-5 mb-5">
 
     <div class="w-2/3 flex flex-col gap-y-5">
@@ -720,5 +800,6 @@
     </div>
 
 </footer>
+
 </body>
 </html>
