@@ -29,11 +29,9 @@
         if (document.documentElement.scrollTop > 80)
         {
         document.getElementById("navbar").style.background = "black";
-        document.getElementById("navbar").style.padding = "8px 8px";
         }
         else
         {
         document.getElementById("navbar").style.background = "none";
-        document.getElementById("navbar").style.padding = "0px 0px";
         }
         } 
