@@ -1,0 +1,30 @@
+.Film
+{
+     position : relative;
+}
+     
+.Film .movie-hover 
+{
+     position : absolute;
+     text-align : center;
+}
+     
+.Film:hover .movie-hover 
+{
+     opacity: 0;
+}
+     
+.Film .movie-img 
+{
+     position : absolute;
+}
+
+.Film .movie-hover 
+{
+     position: absolute;
+     text-align: center;
+     font-weight: bold;
+     font-size: 2em;
+     color: white;
+     transition: all .5s;
+}
